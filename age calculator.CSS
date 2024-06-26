@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:rgb(111, 54, 160)
+}
+.container {
+    background-color:rgb(173, 165, 165);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(36, 38, 36, 0.1);
+}
+.container h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+input {
+    margin: 5px 0;
+    padding: 8px;
+    width: calc(100% - 20px);
+    box-sizing:border-box;
+}
+button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color:rgb(97, 92, 92);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+button:hover {
+    background-color:rgb(56, 42, 42);
+}
+.result {
+    margin-top: 10px;
+    font-weight: bold;
+}
